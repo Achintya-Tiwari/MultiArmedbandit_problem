@@ -1,5 +1,5 @@
 # MultiArmedbandit_problem
-This Repository Contains 2 .py files one for Upper Confidence Bound (UCB) Algorithm and the other for Thompson Sampling Algorithm.
+This Repository Contains 2 .py files one for Upper Confidence Bound (UCB) Algorithm and the other for Thompson Sampling Algorithm. The same code is also provided in a .ipynb format for better undestanding of code.
 # Upper Confidence Bound (UCB)
 The provided Python code for the Upper Confidence Bound Algorithm takes the multi-armed Bandit problem as an example and implements various steps solving it.The multi-armed bandit problem is a common challenge in reinforcement learning. 
 The algorithm balances exploration and exploitation, selecting ads over a specified number of rounds to maximize cumulative reward. Leveraging a dataset containing ad rewards, the code iteratively applies UCB to prioritize ads with higher estimated rewards and uncertainty, updating selection statistics accordingly. 
